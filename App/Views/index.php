@@ -1,7 +1,4 @@
-<?php
-
-for ($i = 0; $i < count($data['arr']); $i++) {
-    echo "<h2>[".$i."] = ".$data['arr'][$i]."</h2>";
-}
-
-?>
+<?php require 'app/views/header.php'?>
+    <h1>Имя: <?=$data['name']?></h1>
+    <h1>Значение: <?=$data['value']?></h1>
+<?php require 'app/views/footer.php'?>
