@@ -1,7 +1,15 @@
 {
-    "autoload": {
+  "autoload": {
     "psr-4": {
-      "Framework\\": "Framework"
-    }
+      "Framework\\": "Framework",
+      "App\\": "App"
+    },
+    "files": [
+      "App/routes.php"
+    ]
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "ext-pdo": "*"
   }
 }

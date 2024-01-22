@@ -1,4 +1,5 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?path=$1 [L,QSA]
+RewriteRule ^(.*)$ php_project/index.php?path=$1 [L,QSA]
+#http://localhost:63342/php_project/index.php?path=value
